@@ -4,7 +4,7 @@ export function Button(props) {
   const { label, onClick } = props;
   return (
     <button className={styles.button} onClick={onClick}>
-      {label}
+      {label} sd
     </button>
   );
 }
