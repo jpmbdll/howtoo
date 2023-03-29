@@ -1,0 +1,18 @@
+.container {
+  background-image: linear-gradient(
+    to top,
+    #000000,
+    #000000,
+    #000000,
+    rgba(255, 0, 0, 0)
+  );
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  height: 150px;
+  padding: 3rem;
+  display: flex;
+  width: 100%;
+  bottom: 0;
+}

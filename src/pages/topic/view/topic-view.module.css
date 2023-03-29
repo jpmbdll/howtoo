@@ -1,0 +1,59 @@
+.description {
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    rgba(255, 0, 0, 0)
+  );
+  padding-bottom: 200px;
+  position: fixed;
+  height: 100vh;
+  width: 400px;
+  padding: 50px;
+}
+.description > h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.description > p {
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+
+.description > p:last-child {
+  border-left: 4px solid #55c6d7;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.content {
+  background-image: url("../../../../public/topic-view.svg");
+  padding: 50px 50px 50px 450px;
+  background-repeat: "no-repeat";
+  background-size: cover;
+  height: 100vh;
+}
+
+.actions {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.actions > button {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #e0e0e0;
+  color: #000000;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+}
+
+.actions > button:hover {
+  background: #55c6d7;
+  color: #ffffff;
+}

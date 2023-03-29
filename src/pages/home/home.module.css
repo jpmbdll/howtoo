@@ -1,0 +1,20 @@
+.container {
+  background-image: url("../../../public/home.svg");
+  background-repeat: "no-repeat";
+  height: calc(100vh - 80px);
+  background-size: cover;
+}
+
+.sidebarContent {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.sidebarContent > img {
+  margin-bottom: 50px;
+}
+
+.sidebarContent > p {
+  margin-bottom: 10px;
+}
